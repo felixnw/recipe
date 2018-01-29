@@ -15,10 +15,10 @@ img, object { max-width: 100%; }
 /*	Development/layout aid. Remove the comments
 	on this rule in order to draw boxes around DIVs
 	and other elements used for layout. */
-/* 
+/*
 div, main, article, section, aside, hgroup, header, footer, address, nav {
 	border: 1px solid rgba(255,0,0,0.15) !important;
-	background: rgba(255,0,0,0.05) !important;		
+	background: rgba(255,0,0,0.05) !important;
 }
 */
 
@@ -27,16 +27,35 @@ div, main, article, section, aside, hgroup, header, footer, address, nav {
 /* start project-specifc styles below this line */
 
 body {
-	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Raleway", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #222;
 }
 
+.title {
+	color: brown;
+	text-align: center;
+	font-size: 5em;
+}
+
+.center {
+	text-align: center;
+}
+
+img.image {
+  max-width: 50%;
+  max-height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
 /*	Generally, you will only want one container element in
-	the document, wrapping around the main content area. 
+	the document, wrapping around the main content area.
 	If you have more than one container, you are probably doing
-	something wrong. 	
+	something wrong.
 */
 .container {
 	margin-top: 1em;
@@ -46,6 +65,7 @@ body {
 	width: 90%;
 	max-width: 1200px;
 	padding: 2em;
-	border: 5px solid #eee;
+	border-bottom: 10px solid #474640;
+	border-top: 10px solid #474640;
+	background-color: #FFF9E6
 }
-
